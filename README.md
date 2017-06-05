@@ -50,13 +50,13 @@ This option allows you to stop Mappy from listing routes that start with key wor
     ```
 
 2. Strip | ``` String ```
-Usefull when running development or staging enviroments,  Allows you to specify parts of a URL such as `/public/www/yoursite/ that may be part of a sites URL while in development
+Useful when running development or staging enviroments,  Allows you to specify parts of a URL such as `/public/www/yoursite/ that may be part of a sites URL while in development
     ```php
     'strip' => '/blog/public',
     ```
 
 3. Enable | ``` Bool ```
-Usefull for quickly tuning off the package.  False will disable the package
+Usefull for quickly turning off the package.  False will disable the package
     ```php
     'enable' => 'true',
     ```
